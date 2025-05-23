@@ -484,20 +484,20 @@
       "cid": "Content5_0"
     },
     {
-      "cssString": "#Banner0_1 .mb03sm2iuq-editor_css {\n  \n}\n",
+      "cssString":
+        "#Banner0_1.mauo8r54jtt-editor_css {\n  background-clip:;\n  line-height: 1.3px;\n  background-image: url(\"https://i.postimg.cc/fRMVXsyV/zen8g0obrq.png\");\n  background-attachment: scroll;\n  background-position: 0% 0%;\n  background-repeat: no-repeat;\n}\n",
+      "id": "Bannermauorjtteditorcss",
+      "cid": "Banner0_1"
+    },
+    {
+      "cssString": "#Banner0_1 .mb03sm2iuq-editor_css {\n  top: 15%;\n}\n",
       "id": "Bannermbsmiuqeditorcss",
       "cid": "Banner0_1"
     },
     {
       "cssString":
-        "#Banner0_1 .banner0-text-wrapper > .mb03cb3l52k-editor_css {\n  font-size: 16px;\n  line-height: 1.3;\n}\n",
+        "#Banner0_1 .banner0-text-wrapper > .mb03cb3l52k-editor_css {\n  font-size: 16px;\n  line-height: 1.7;\n}\n",
       "id": "Bannerbannertextwrappermbcblkeditorcss",
-      "cid": "Banner0_1"
-    },
-    {
-      "cssString":
-        "#Banner0_1.mauo8r54jtt-editor_css {\n  background-clip:;\n  line-height: 1.3px;\n  background-image: url(\"https://i.postimg.cc/fRMVXsyV/zen8g0obrq.png\");\n  background-attachment: scroll;\n  background-position: 0% 0%;\n  background-repeat: no-repeat;\n}\n",
-      "id": "Bannermauorjtteditorcss",
       "cid": "Banner0_1"
     }
   ],
