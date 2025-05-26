@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Home from './Home';
 import HomeEn from './Home_en';
@@ -23,6 +23,21 @@ class App extends Component {
     enquireScreen((b) => {
       this.setState({ isMobile: !!b });
     });
+
+    document.body.addEventListener("click", (e) => {
+      if (e.target && e.target.tagName.toLowerCase() === 'a') {
+        const anchorName = e.target.href.split('/').pop();
+        if (anchorName && anchorName !== "#") {
+          let anchorElement = document.querySelector(anchorName);
+          if (anchorElement) {
+            // Get your anchor element and move to the anchor position
+            e.preventDefault();
+            anchorElement.scrollIntoView({ block: 'start', behavior: 'smooth' });
+          }
+        }
+      }
+    })
+
   }
   render() {
     return (
