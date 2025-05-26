@@ -398,13 +398,7 @@ export const Content50DataSource = {
             children: (
               <span>
                 <span>
-                  <span>
-                    <p>
-                      Smart p<span style="-webkit-text-fill-color: inherit;">
-                        arks
-                      </span>
-                    </p>
-                  </span>
+                  <p>Smart parks</p>
                 </span>
               </span>
             ),
