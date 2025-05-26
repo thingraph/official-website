@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
 import Home from './Home';
 import HomeEn from './Home_en';
