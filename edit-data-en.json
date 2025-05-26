@@ -63,7 +63,7 @@
                       {
                         "name": "content~map0lb7i6b",
                         "className": "",
-                        "children": "<span><p>二维图纸查看器</p></span>"
+                        "children": "<span><p>2D sheet viewer</p></span>"
                       }
                     ],
                     "href": "https://dxf.thingraph.site/",
@@ -80,7 +80,7 @@
                         "name": "content~maozpuqdiw",
                         "className": "",
                         "children":
-                          "<span><span><p>三维模型查看器</p></span></span>"
+                          "<span><span><p>3D model viewer</p></span></span>"
                       }
                     ],
                     "href": "https://bim.thingraph.site/#/",
@@ -97,7 +97,7 @@
                         "name": "content~maozpuqdiw",
                         "className": "",
                         "children":
-                          "<span><span><p>店铺装修设计平台</p></span></span>"
+                          "<span><span><p>Shopfitting design platform</p></span></span>"
                       }
                     ],
                     "href": "https://bp3d.thingraph.site/#/",
