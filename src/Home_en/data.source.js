@@ -135,6 +135,28 @@ export const Nav00DataSource = {
               target: '_blank',
             },
           },
+          {
+            name: 'sub~mf0wrys6oqp',
+            className: 'item-sub',
+            children: {
+              className: 'item-sub-item',
+              children: [
+                {
+                  name: 'content~mf0wv6emjk',
+                  className: '',
+                  children: (
+                    <span>
+                      <span>
+                        <p>serve-room demo</p>
+                      </span>
+                    </span>
+                  ),
+                },
+              ],
+              href: 'https://room3d.thingraph.site/',
+              target: '_blank',
+            },
+          },
         ],
       },
       {
