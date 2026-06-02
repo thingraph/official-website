@@ -1,0 +1,45 @@
+# Thingraph
+
+> Thingraph specializes in 2D/3D graphics rendering and digital twin software for industrial, architectural, retail, and smart-city customers. The corporate website covers company information, products and services, case studies, and contact details. Free browser-based CAD viewers (DWG, DXF, 3D formats) are hosted at cad.thingraph.site.
+
+## Corporate Website
+
+English and Chinese versions use locale path prefixes (`/en`, `/zh`).
+
+- [Home (English)](https://thingraph.site/en): Products, integrations, enterprise digital twin offerings, case studies
+- [首页 (中文)](https://thingraph.site/zh): 产品与服务、集成、企业数字孪生、案例展示
+- [About / 关于我们](https://thingraph.site/en/about): Mission, technology, and what Thingraph builds
+- [Products & Services / 产品与服务](https://thingraph.site/en/products): CAD viewers, marketplace integrations, Smart Campus, Smart Data Center, Smart City, SDK
+- [Contact / 联系我们](https://thingraph.site/en/contact): Email thingraph@outlook.com
+- [Privacy Policy / 隐私政策](https://thingraph.site/en/privacy)
+- [Terms of Service / 服务条款](https://thingraph.site/en/terms)
+
+## Free CAD Viewers & Tools (cad.thingraph.site)
+
+- [DWG Viewer](https://cad.thingraph.site/dwg-viewer): View DWG and DXF in the browser
+- [CAD Viewer](https://cad.thingraph.site/cad-viewer): View glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP in the browser
+- [CAD Editor](https://cad.thingraph.site/cad-editor): Edit supported 3D formats in the browser
+- [Examples](https://cad.thingraph.site/examples): Sample 2D and 3D files
+- [Install / Marketplace directory](https://cad.thingraph.site/install): Google Drive™, VS Code, Cursor, Confluence integrations
+
+## Enterprise Digital Twin Products
+
+- **Smart Campus** — campus and industrial park visualization with IoT and BIM integration
+- **Smart Data Center** — 3D DCIM, rack layout, power and cooling overlays
+- **Smart City** — urban digital twin for planning and governance
+- **2D/3D Visualization SDK** — browser WebGL stack powered by @x-viewer/core and Three.js
+- **Interior Design Platform** — retail and commercial space planning in the browser
+- **Collaboration Platform** — shared CAD and 3D model review workflows
+
+## Technology
+
+- WebGL rendering via Three.js
+- Client-side DWG/DXF parsing where possible (files stay in the user's browser)
+- Vue 3 web apps, browser extensions, and marketplace integrations
+- npm packages: `@x-viewer/core`, `@x-viewer/plugins`
+
+## Contact
+
+- Email: thingraph@outlook.com
+- YouTube: https://www.youtube.com/@Thingraph
+- Website: https://thingraph.site

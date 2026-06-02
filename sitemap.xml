@@ -1,16 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://thingraph.site/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
- <loc>http://www.thingraph.site/</loc>
- <priority>0.3</priority>
- <lastmod>2025-05-27</lastmod>
- <changefreq>weekly</changefreq>
-</url>
+  <url>
+    <loc>https://thingraph.site/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/about"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
+  <url>
+    <loc>https://thingraph.site/en/products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/products"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/products"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/about"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh/products</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/products"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/products"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://thingraph.site/zh/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thingraph.site/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://thingraph.site/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thingraph.site/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
 </urlset>
