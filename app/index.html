@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/app/iconfont/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/app/iconfont/iconfont2.css" />
+
+    <!-- Primary meta -->
+    <title>CAD Viewer</title>
+    <meta name="description" content="CAD Viewer is a free web app to view 2D CAD drawings (DWG, DXF) and 3D models (glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES) directly from Google Drive™ in the browser. Powered by the @x-viewer/core WebGL SDK built on Three.js. No software install needed." />
+    <meta name="keywords" content="CAD viewer, DWG viewer, DXF viewer, glTF viewer, OBJ viewer, FBX viewer, STL viewer, IFC viewer, STEP viewer, STP viewer, IGS viewer, IGES viewer, Google Drive CAD, x-viewer, @x-viewer/core, WebGL CAD, online DWG viewer, browser CAD viewer, Three.js DWG, DXF browser, 3D model viewer" />
+    <link rel="canonical" href="https://cad.thingraph.site/" />
+
+    <!-- Open Graph (Facebook, LinkedIn, AI crawlers) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CAD Viewer" />
+    <meta property="og:title" content="CAD Viewer – View DWG, DXF, glTF, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES from Google Drive™" />
+    <meta property="og:description" content="Free web app to view 2D CAD drawings and 3D models from Google Drive™ in the browser. Supports DWG, DXF, glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES. Powered by @x-viewer/core WebGL SDK." />
+    <meta property="og:url" content="https://cad.thingraph.site/" />
+    <meta property="og:image" content="https://cad.thingraph.site/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:image" content="https://cad.thingraph.site/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="CAD Viewer – DWG/DXF/glTF Viewer for Google Drive™" />
+    <meta name="twitter:description" content="View DWG, DXF, glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES files from Google Drive™ in the browser. Free, no install. Powered by @x-viewer/core." />
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CAD Viewer",
+      "alternateName": "CAD Viewer for Google Drive",
+      "applicationCategory": "EngineeringApplication",
+      "applicationSubCategory": "CAD Viewer",
+      "operatingSystem": "Web",
+      "url": "https://cad.thingraph.site/",
+      "installUrl": "https://workspace.google.com/marketplace/app/dwg_viewer/641533811831",
+      "description": "Thingraph CAD Viewer is a free browser-based application for viewing 2D CAD drawings (DWG, DXF) and 3D models (glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES) from Google Drive™. It is built on the @x-viewer/core WebGL SDK (Viewer2d and Viewer3d), which uses Three.js for high-performance rendering entirely in the browser without any server-side processing.",
+      "featureList": [
+        "View DWG files in browser",
+        "View DXF files in browser",
+        "View glTF and GLB 3D models",
+        "View OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES 3D models",
+        "Google Drive integration via Open with",
+        "Layer management for 2D drawings",
+        "Layout switching for DWG/DXF",
+        "Distance, area and angle measurement",
+        "Markup and annotation tools",
+        "Screenshot export",
+        "Section plane for 3D models",
+        "No installation required"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Thingraph",
+        "url": "https://cad.thingraph.site/",
+        "email": "thingraph@outlook.com"
+      },
+      "softwareRequirements": "A modern web browser with WebGL support",
+      "keywords": "DWG viewer, DXF viewer, CAD viewer, glTF viewer, IFC viewer, STEP viewer, STP viewer, IGS viewer, IGES viewer, Google Drive CAD, x-viewer, @x-viewer/core, WebGL CAD viewer, Three.js CAD"
+    }
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      #app {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid #ccc;
+        border-top-color: #409EFF; /* Element Plus primary color */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6682300247350064" crossorigin="anonymous"></script>
+    <script type="module" crossorigin src="/app/assets/main.js"></script>
+    <link rel="stylesheet" crossorigin href="/app/assets/main.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <script src="/config.js"></script> -->
+  </body>
+</html>

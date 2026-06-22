@@ -1,0 +1,71 @@
+# Thingraph CAD Viewer
+
+> Thingraph CAD Viewer is a free browser-based application for viewing 2D CAD drawings (DWG, DXF) and 3D models (glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES) directly from Google Drive™. No software installation required. It is built on the @x-viewer/core WebGL SDK, which uses Three.js for high-performance client-side rendering.
+
+## Application
+
+- [Home](https://cad.thingraph.site/home): Connect Google Drive™ and open CAD files via "Open with"
+- [Open Local File](https://cad.thingraph.site/open): Upload and view local DWG, DXF, glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES files directly in the browser
+- [Example Models](https://cad.thingraph.site/examples): Browse and open example CAD and 3D model files
+- [Install](https://cad.thingraph.site/install): Install CAD Viewer from Google Workspace Marketplace
+- [Support](https://cad.thingraph.site/google/cad-viewer-support): Documentation, FAQ and contact information
+- [FAQ](https://cad.thingraph.site/faq/): Static help articles for SEO — Google Drive workflows, supported formats, troubleshooting
+
+## FAQ (help articles)
+
+- [FAQ index](https://cad.thingraph.site/faq/): Hub for all CAD Viewer and DWG Viewer help articles
+- [View DWG online without AutoCAD](https://cad.thingraph.site/faq/view-dwg-online-without-autocad.html): Free browser DWG viewer, no AutoCAD install
+- [Install from Google Workspace Marketplace](https://cad.thingraph.site/faq/install-cad-viewer-google-workspace-marketplace.html): Install DWG Viewer, CAD Viewer, or CAD Editor for Open with. Videos: DWG https://youtu.be/98X66wYMSl4 · CAD https://youtu.be/ICwLJsZOPVU
+- [CAD Viewer vs DWG Viewer vs CAD Editor](https://cad.thingraph.site/faq/cad-viewer-vs-dwg-viewer-vs-cad-editor.html): Which Google Drive app to choose
+- [Is CAD Viewer safe?](https://cad.thingraph.site/faq/is-cad-viewer-safe-are-files-uploaded-to-servers.html): Client-side rendering, no server upload of CAD files
+- [Open with not showing in Google Drive](https://cad.thingraph.site/faq/open-with-not-showing-in-google-drive.html): Troubleshooting missing Open with menu
+- [How to open a DWG file in Google Drive](https://cad.thingraph.site/faq/how-to-open-dwg-in-google-drive.html): Install app, use Open with, view DWG/DXF in browser without AutoCAD. Video: https://youtu.be/98X66wYMSl4
+- [What file formats does CAD Viewer support?](https://cad.thingraph.site/faq/what-formats-does-cad-viewer-support.html): DWG, DXF, glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES. Video: https://youtu.be/ICwLJsZOPVU
+- [DWG Preview for Windows](https://cad.thingraph.site/faq/dwg-preview-for-windows.html): Desktop DWG/DXF viewer for Windows. Download: https://cad.thingraph.site/install/windows · Video: https://youtu.be/fw9PFVR6nvM
+- [CAD Preview for Windows](https://cad.thingraph.site/faq/cad-preview-for-windows.html): Desktop 2D + 3D CAD viewer for Windows. Download: https://cad.thingraph.site/install/windows · Video: https://youtu.be/1AXnvv1UGno
+
+## Supported File Formats
+
+- **DWG** — AutoCAD Drawing files (2D CAD)
+- **DXF** — Drawing Exchange Format (2D CAD)
+- **glTF / GLB** — GL Transmission Format, JSON and binary variants (3D)
+- **OBJ** — Wavefront Object (3D)
+- **FBX** — Autodesk Filmbox (3D)
+- **STL** — Stereolithography, used in 3D printing (3D)
+- **IFC** — Industry Foundation Classes (open BIM / building models) (3D)
+- **STP / STEP** — ISO 10303 STEP exchange (3D CAD / neutral CAD)
+- **IGS / IGES** — Initial Graphics Exchange Specification (3D CAD / neutral CAD)
+
+## Features
+
+- High-performance WebGL-based 2D rendering for DWG/DXF (Three.js, client-side only, no server)
+- 3D model viewer for glTF, GLB, OBJ, FBX, STL, IFC, STP, STEP, IGS, IGES with orbit/pan/zoom
+- Layer management: show/hide layers in DWG/DXF drawings
+- Layout switching: switch between model space and paper space in multi-layout DWG/DXF
+- Measurement tools: distance, area, angle, coordinates with object snapping (osnap)
+- Markup and annotation: arrows, rectangles, circles, text with undo/redo
+- Screenshot export (PNG)
+- Section plane for 3D models
+- Tree view for browsing model hierarchy
+- Google Drive™ integration: open files via "Open with" without downloading
+- Privacy: files are processed entirely in the browser, never uploaded to any server
+
+## Technology
+
+CAD Viewer is built on **@x-viewer/core** and **@x-viewer/plugins** — a TypeScript/JavaScript SDK for building CAD and 3D viewer applications in the browser.
+
+- npm: `@x-viewer/core`, `@x-viewer/plugins`
+- Core APIs: `Viewer2d` (DWG/DXF), `Viewer3d` (glTF/OBJ/FBX/STL/IFC/STP/STEP/IGS/IGES)
+- Rendering: WebGL via Three.js
+- Framework: Vue 3
+- SDK examples: https://github.com/thingraph/dwg-viewer-example
+- SDK live demos: https://dwg.thingraph.site/
+
+## Install
+
+Google Workspace Marketplace: https://workspace.google.com/marketplace/app/dwg_viewer/641533811831
+
+## Contact
+
+- Email: thingraph@outlook.com
+- GitHub: https://github.com/thingraph/dwg-viewer-example
