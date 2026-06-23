@@ -22,7 +22,7 @@
     />
     <meta property="og:url" content="https://cad.thingraph.site/faq/how-to-open-dwg-in-google-drive.html" />
     <meta property="og:image" content="https://cad.thingraph.site/og-image.png" />
-    <link rel="stylesheet" href="/faq/faq.css" />
+    <link rel="stylesheet" href="/app/faq/faq.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -109,17 +109,17 @@
   <body>
     <header class="faq-header">
       <div class="faq-header__inner">
-        <a class="faq-brand" href="/home">
-          <img src="/cube-64.svg" width="32" height="32" alt="" />
+        <a class="faq-brand" href="/app/home">
+          <img src="/app/cube-64.svg" width="32" height="32" alt="" />
           <span>CAD Viewer</span>
         </a>
         <nav aria-label="Main">
           <ul class="faq-nav">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/examples">Examples</a></li>
-            <li><a href="/install">Install</a></li>
-            <li><a href="/faq/" aria-current="page">FAQ</a></li>
-            <li><a href="/google/dwg-viewer-support">Support</a></li>
+            <li><a href="/app/home">Home</a></li>
+            <li><a href="/app/examples">Examples</a></li>
+            <li><a href="/app/install">Install</a></li>
+            <li><a href="/app/faq/" aria-current="page">FAQ</a></li>
+            <li><a href="/app/google/dwg-viewer-support">Support</a></li>
           </ul>
         </nav>
       </div>
@@ -129,8 +129,8 @@
       <article class="faq-card" itemscope itemtype="https://schema.org/Article">
         <nav class="faq-breadcrumb" aria-label="Breadcrumb">
           <ol>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/faq/">FAQ</a></li>
+            <li><a href="/app/home">Home</a></li>
+            <li><a href="/app/faq/">FAQ</a></li>
             <li><span aria-current="page">Open DWG in Google Drive</span></li>
           </ol>
         </nav>
@@ -168,7 +168,7 @@
           <li>A <strong>modern browser</strong> with WebGL enabled (Chrome, Edge, Firefox, or Safari).</li>
           <li>
             The <strong>DWG Viewer</strong> or <strong>CAD Viewer</strong> app installed from
-            <a href="/install">Google Workspace Marketplace</a> — the app must be authorized once per Google account.
+            <a href="/app/install">Google Workspace Marketplace</a> — the app must be authorized once per Google account.
           </li>
           <li>A file with the <code>.dwg</code> extension (AutoCAD Drawing). <strong>DXF</strong> files follow the same steps.</li>
         </ul>
@@ -177,7 +177,7 @@
         <ol>
           <li>
             <strong>Install the viewer (first time only).</strong>
-            Visit our <a href="/install">Install page</a>, choose <strong>DWG Viewer for Google Drive</strong> or
+            Visit our <a href="/app/install">Install page</a>, choose <strong>DWG Viewer for Google Drive</strong> or
             <strong>CAD Viewer for Google Drive</strong>, and click Install. Sign in with Google and approve the requested
             permissions. The app only needs access to files you explicitly open with it (<code>drive.file</code> scope) —
             it cannot browse your entire Drive.
@@ -207,11 +207,11 @@
         </p>
         <ul>
           <li>
-            <strong><a href="/google/dwg-viewer">DWG Viewer</a></strong> — focused on 2D CAD only (DWG, DXF). Choose this if
+            <strong><a href="/app/google/dwg-viewer">DWG Viewer</a></strong> — focused on 2D CAD only (DWG, DXF). Choose this if
             you only work with AutoCAD drawings.
           </li>
           <li>
-            <strong><a href="/google/cad-viewer">CAD Viewer</a></strong> — opens 2D CAD <em>and</em> 3D models (glTF, GLB,
+            <strong><a href="/app/google/cad-viewer">CAD Viewer</a></strong> — opens 2D CAD <em>and</em> 3D models (glTF, GLB,
             OBJ, FBX, STL, IFC, STEP, IGS, etc.). Choose this if you also view 3D files from Drive.
           </li>
         </ul>
@@ -223,14 +223,14 @@
         <p>
           <strong>No.</strong> When you open a file from Google Drive™, the content is downloaded to your browser and
           rendered locally with WebGL (@x-viewer/core / Three.js). Thingraph does not store or process your drawings on
-          backend servers. See our <a href="/google/dwg-viewer-privacy">Privacy Policy</a> for details.
+          backend servers. See our <a href="/app/google/dwg-viewer-privacy">Privacy Policy</a> for details.
         </p>
 
         <h2>Troubleshooting</h2>
 
         <h3>DWG Viewer does not appear in “Open with”</h3>
         <ul>
-          <li>Install the app from <a href="/install">Install</a> and complete Google authorization.</li>
+          <li>Install the app from <a href="/app/install">Install</a> and complete Google authorization.</li>
           <li>Use the same Google account in Drive and during install.</li>
           <li>Refresh the Drive page and try again.</li>
           <li>Confirm the file extension is <code>.dwg</code> or <code>.dxf</code> — 3D-only apps will not list DWG files.</li>
@@ -249,25 +249,25 @@
         <ul>
           <li>Verify you have permission to view the file in Drive (not view-only link expired).</li>
           <li>Very large or heavily corrupted DWG files may fail — try opening a smaller sample from
-            <a href="/examples">Examples</a> to confirm the viewer works.</li>
-          <li>Check <a href="/google/dwg-viewer-support">DWG Viewer Support</a> or email
+            <a href="/app/examples">Examples</a> to confirm the viewer works.</li>
+          <li>Check <a href="/app/google/dwg-viewer-support">DWG Viewer Support</a> or email
             <a href="mailto:thingraph@outlook.com">thingraph@outlook.com</a>.
           </li>
         </ul>
 
         <h3>Alternative: open a local DWG without Google Drive</h3>
         <p>
-          If the file is on your computer, use <a href="/dwg-viewer">DWG Viewer (local upload)</a> — drag and drop a DWG or
+          If the file is on your computer, use <a href="/app/dwg-viewer">DWG Viewer (local upload)</a> — drag and drop a DWG or
           DXF file into the browser. No Google account required; rendering still happens locally.
         </p>
 
         <section class="faq-related">
           <h2>Related articles</h2>
           <ul>
-            <li><a href="/faq/what-formats-does-cad-viewer-support.html">What file formats does CAD Viewer support?</a></li>
-            <li><a href="/faq/">All FAQ articles</a></li>
-            <li><a href="/google/dwg-viewer-support">DWG Viewer Support</a></li>
-            <li><a href="/examples">Example DWG files</a></li>
+            <li><a href="/app/faq/what-formats-does-cad-viewer-support.html">What file formats does CAD Viewer support?</a></li>
+            <li><a href="/app/faq/">All FAQ articles</a></li>
+            <li><a href="/app/google/dwg-viewer-support">DWG Viewer Support</a></li>
+            <li><a href="/app/examples">Example DWG files</a></li>
           </ul>
         </section>
       </article>
@@ -275,10 +275,10 @@
 
     <footer class="faq-footer">
       <nav aria-label="Footer">
-        <a href="/google/dwg-viewer-privacy">Privacy</a>
-        <a href="/google/dwg-viewer-terms">Terms</a>
-        <a href="/google/dwg-viewer-support">Support</a>
-        <a href="/contact">Contact</a>
+        <a href="/app/google/dwg-viewer-privacy">Privacy</a>
+        <a href="/app/google/dwg-viewer-terms">Terms</a>
+        <a href="/app/google/dwg-viewer-support">Support</a>
+        <a href="/app/contact">Contact</a>
       </nav>
       <p>Thingraph · Powered by <a href="https://www.npmjs.com/package/@x-viewer/core" rel="noopener noreferrer">@x-viewer/core</a></p>
       <p>Google Drive™ is a trademark of Google LLC.</p>
